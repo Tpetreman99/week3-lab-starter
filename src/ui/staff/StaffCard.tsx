@@ -1,11 +1,13 @@
 import { StyleSheet } from "react-native";
-
 // TODO: Make a Props type for the props of our StaffCard component
-
+type StaffCard = {
+  id: Int16Array;
+  name: string;
+};
 // TODO: Make a FunFact component that takes an optional text prop (no need for a type for this prop, just use inline typing)
 // This prop is a helper that will render null if no text is provided or if the text is an empty string (or only whitespace, use .trim() to check).
 // If there is text, render a Text component with the style styles.funFact that displays "Fun fact: " followed by the text prop.
-
+ 
 export default function StaffCard(/*TODO: Add props here (use desctructuring)*/) {
   // TODO: Use descructuring to extract values from the person
   // If values need to be modified or altered for display (ex: a default value added if no office is specified),

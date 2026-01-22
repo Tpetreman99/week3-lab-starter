@@ -1,7 +1,9 @@
 // TODO: Create a type for staff ids, which should be strings
-
-// TODO: Create a type for staff roles, which can be "Instructor", "Program Chair", "Coordinator", or "Advisor"
-
+type StaffId = {
+  id: string;
+}
+ // TODO: Create a type for staff roles, which can be "Instructor", "Program Chair", "Coordinator", or "Advisor"
+type StaffRoles = "Instructor" | "Program Chair" | "Coordinator" | "Advisor";
 // TODO: Create an interface for staff members
 // The interface should include the following properties:
 // an id (hint: use the StaffId type created above)
